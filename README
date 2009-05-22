@@ -1,0 +1,15 @@
+MultiAssignmentSanity
+====================
+
+Fixes issues with Multi-parameter Assignment failure
+
+
+Example
+=======
+
+  class Person < ActiveRecord::Base
+    sanitize_multi_assignment_errors :message => "{attr} has error: {error}"
+  end
+
+
+Copyright (c) 2009 Peter Wagenet, released under the MIT license

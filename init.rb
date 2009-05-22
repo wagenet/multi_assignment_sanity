@@ -1,0 +1,1 @@
+require 'multi_assignment_sanity'
